@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link{
     display: inline-block;
     vertical-align: top;
-    margin: 0 15px;
+    margin: 0 30px;
     position: relative;
     color: #406CBB;
     text-decoration: none;

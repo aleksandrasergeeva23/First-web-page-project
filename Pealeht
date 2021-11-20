@@ -17,8 +17,6 @@
                      <a class="nav__link" href="#">Aktiivne ajaviide</a>
                      <a class="nav__link" href="#">Vaatamisväärsused</a>
                      <a class="nav__link" href="#">Söömine</a>
-                     <a class="nav__link" href="#">Meie eest</a>
-                     <a class="nav__link" href="#">Kontaktid</a>
                  </nav>
              </div>
          </div>
@@ -46,15 +44,39 @@
                 </div>
                 <div class="slider__item">
                     <span class="slider__num">03</span>
-                    About
+                    Kasulikkus
                 </div>
                 <div class="slider__item">
                     <span class="slider__num">04</span>
-                    Contacts
+                    Kontaktid
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<section class="section">
+    <div class="container">
+        <div class="section__header">
+            <h2>Jutustame linnast</h2>
+            <h3>Story about us</h3>
+            <div>
+                <p>Baltikumi vanima linnana pakub Tartu põnevaid vaatamisväärsusi igal sammul, 
+                    eriti kesklinnas, mis on omapärane riiklik muinsuskaitseala. Siin leidub 
+                    stiilinäiteid keskajast tänapäevase moodsa arhitektuurini, mida ilmestavad 
+                    hubased kohvikud ja omapärased restoranid, linnaloodus ning elav tudengilinna 
+                    melu. Tartu on eesti kultuuri häll – siit sai alguse rahvusülikool, siin 
+                    alustasid oma tegevust esimesed ajalehed ja kultuuriseltsid, 1869. aastal 
+                    toimus siin esimene rahvuslik üldlaulupidu ja 1870. aastal avati esimene 
+                    kutseline teater Vanemuine. Siin asuvad Rahvusarhiiv ning Haridus- ja Teadusministeerium, 
+                    lisaks on Tartu koduks mitmetele olulistele kultuuriasutustele. Olulisim neist on enam 
+                    kui sajandivanune Eesti Rahva Muuseum, kus ajalugu on põimunud innovatsiooniga – muuseumi 
+                    Eesti ja soome-ugri rahvaste kultuuriloo püsinäitused on esitatud nii läbi esemeliste 
+                    eksponaatide kui ka nutikate uudsete lahenduste, luues sideme vanema ja noorema generatsiooni 
+                    vahel.</p>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
