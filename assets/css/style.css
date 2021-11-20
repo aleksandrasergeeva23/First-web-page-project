@@ -173,22 +173,23 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 
     border-top: 3px solid #7A9EC3;
+    opacity: .7;
     font-size: 18px;
     color: #406CBB;
     text-transform: uppercase;
 }
 
-.slider.active {
+.slider__item.active {
     opacity: 1;
 }
-.slider.active:before {
+.slider__item.active:before {
     content: "";
     display: block;
     width: 70px;
     height: 3px;
-    background-color: #fff;
+    background-color: #406CBB;
     position: absolute;
-    top: 0;
+    top: -3px;
     left: 0;
     z-index: 1;
 }
@@ -196,4 +197,30 @@ h1, h2, h3, h4, h5, h6 {
 .slider__num {
     font-size: 24px;
     font-weight: 700;
+}
+
+/* Section */
+.section {
+    padding: 80px 0;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section__suptitle {
+    font-family: 'Montagu Slab', 
+    cursive;
+    font-size: 24px;
+    color: #406CBB;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #7A9EC3; 
 }
