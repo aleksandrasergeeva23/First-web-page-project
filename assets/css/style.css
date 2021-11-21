@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about__item:hover .about__img img {
-    opacity: .3;
+    opacity: .1;
 }
 
 .about__img {
