@@ -242,18 +242,46 @@ h1, h2, h3, h4, h5, h6 {
 
 .about__item {
     width: 250px;
+    position: relative;
+    background-color: #406CBB;
+}
+
+.about__item:hover .about__img {
+    transform: translate3d(-10px, -10px, 0);
 }
 
 .about__item:hover .about__img img {
-    opacity: .1;
+    opacity: .5;
+}
+
+.about__item:hover .about__text {
+    opacity: 1;
 }
 
 .about__img {
     background: linear-gradient(to bottom,
      #fff, #406CBB);
+
+     transition: transform .2s linear;
 }
 
 .about__img img {
     display: block;
     transition: opacity .1s linear;
+}
+
+.about__text {
+    width: 100%;
+    font-size: 18px;
+    color: #FAA365;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .2s linear;
 }
