@@ -319,3 +319,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     text-transform: uppercase;
 }
+
+/* Services */
+.contacts {
+    display: flex;
+}
+
+.contacts__item {
+    flex: 1 1 0;
+}
