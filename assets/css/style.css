@@ -38,6 +38,17 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.intro_vaatamisv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.tarmohaud.ee/storage/cache/images/004/779/DJI-0741,medium.2x.1548881874.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .introO{
     display: flex;
     flex-direction: column;
@@ -48,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 .intro_sport{
     display: flex;
     flex-direction: column;
