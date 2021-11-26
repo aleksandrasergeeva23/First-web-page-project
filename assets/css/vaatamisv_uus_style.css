@@ -1,13 +1,10 @@
 body{
     margin: 0;
-    padding: 0;
-    background:#7A9EC3;
+    background-color: #7A9EC3;
     font-family: 'Montagu Slab', serif;
-    box-sizing: border-box;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff
 }
 
 *,
@@ -20,41 +17,43 @@ h1, h2, h3, h4, h5, h6 {
     margin:0;
 }
 
-.header_background{
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box1{
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 310px;
+    height: 280px;
     background-color:white;
 }
 
-.text_box{
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    top: 200px;
-    font-size: 20px;
-    line-height: 1.6;
+.box1 .text1{
+    position: relative;
     text-align: center;
     color: #406CBB;
+    top: 190px;
 }
 
 .img_container{
-    width: 1000px;
+    position: relative;
+    top: 310px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: none;
 }
 
-
 .box{ 
-    top: 250px;
+    top: 0px;
     position: relative;
-    left: 2%;
+    left: 0px;
     width: 400px;
     height: 450px;
     transition: 0.3s ease-out;
-    
 }
 
 .box .imgBx{
@@ -111,21 +110,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
-h2{
-    text-align: center;
-}
-
 .box:hover{
     box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
-}
-
-section{
-    display: block;
-}
-
-.info_about{
-    background: #FFC092;
-    display: flex;
 }
 
 .img_section{
@@ -133,5 +119,3 @@ section{
     width: 35%;
     margin: 0 auto;
 }
-
-
