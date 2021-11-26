@@ -9,11 +9,11 @@
  </head>
  <body>
      <header class="header">
-         <div class="container1">
+         <div class="container">
              <div class="header__inner">
                  <div class="header__logo">TarTu</div>
                  <nav class="nav">
-                     <a class="nav__link" href="#">Pealeht</a>
+                     <a class="nav__link" href="Pealeht.html">Pealeht</a>
                      <a class="nav__link" href="#">Aktiivne ajaviide</a>
                      <a class="nav__link" href="#">Vaatamisväärsused</a>
                      <a class="nav__link active" href="#">Söömine</a>
@@ -22,7 +22,7 @@
          </div>
      </header>
      <div class="intro">
-     <div class="container1">
+     <div class="container">
          <div class="intro__inner">
              <h2 class="intro__suptitle">TÜ tudengitelt</h2>
              <h1 class="intro__title"> Maitsev Tartu</h1>
@@ -33,7 +33,7 @@
  </div><!-- /.intro -->
  
  <div class="statistics">
-     <div class="container1">
+     <div class="container">
          <div class="stat">
              <div class="stat__item">
                  <div class="stat__count">179</div>
@@ -58,28 +58,357 @@
          </div>
      </div>
  </div>
- <header>
-    <div class=".container">
-    <h1>Kohvikud ja baarid</h1>
-    <p> CSS &amp; bits of JS </p>>
-<div class=".container">
-  <ul>
-    - 12.times do
-      <li>
-        %a{:href => "#", :class => "normal"}
-          %svg{:viewBox => "0 0 80 76", :x => "0px", :y => "0px"}
-            %g
-              %path{:d => "M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"}
-        .info
-          %h3 Single-origin coffee whatever
-          %p Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag Truffaut jean shorts.
-    </ul>
-        </li>
-</div> 
-</header>
- <section class="section">
+ <div class="container">
+    <div class="well_well-sm">
+        <strong>Maitsvam restoranid</strong>
+    </div>
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/pahadpoisid.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Pahad Poisid</h4>
+                    <p class="group inner list-group-item-text">
+                        Pubis leidub mõndagi toredat: hubane õhkkond, suurepärane toidupoolis 
+                        koos hea teenindusega ning mõnus seltskond. Kuulujutte pajatatakse ka 
+                        seitsmest tele-ekraanist, mille vahendusel nii ööd kui päevad 
+                        kõiksugu spordi- ja muusikaülekandeid on võimalik nautida ja seda muidugi 
+                        koos vahutava õlle ja teravate napsudega.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="https://pahadpoisid.ee/">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/shakespeare.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Shakespeare</h4>
+                    <p class="group inner list-group-item-text">
+                        Café Shakespeare on 100 kohaga hubane ja mõnus koht ajaveetmiseks. 
+                        Pakuvad päevapraade ja -suppe, samuti rikkalikke ja maitsvaid 
+                        toite à la carte menüüst. Suveperioodil on avatud kaunis 
+                        terrass vaatega linnale. Meeldivaid nädalalõpuõhtuid sisustab 
+                        elav muusika. Kohvik asub tasuta WiFi levialas</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="https://www.shakespeare.ee">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/vlndburger.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        VLND burger</h4>
+                    <p class="group inner list-group-item-text">
+                        VLND Burger on rohkem kui lihtsalt toit. See on jagatud 
+                        armastus saia ja pihvi legendaarse koosluse vastu, mis on
+                        põimitud kogukondliku jõu ja tahtega. See on nende viis 
+                        Viljandit maailma viia.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="https://www.vlndburger.ee/">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/ladolcevita.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        La Dolce Vita</h4>
+                    <p class="group inner list-group-item-text">
+                        La Dolce Vita on tõeline Itaalia paik Tartu südames, mis avati 2003. 
+                        aastal. Omanikeks on itaallased, kes pakuvad Teile autentset Itaalia gulinaariat.
+                        Kõik pitsad valmivad elaval tulel puuküttega ahjus ning lisaks leiab 
+                        siit otse Itaaliast toodud pastast tehtud pastaroogasid. Täidetud pasta 
+                        tehakse siinsamas kohapeal vanade traditsiooniliste retseptide järgi.
+                        Menüüs on ka mitmeid eelroogasid, bruschettasid, salateid ja magustoitusid. 
+                        Söögikordade kõrvale võid näiteks nautida Itaalia veini või mõnusat tassi kohvi (Illy).</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://ladolcevita.ee/">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="well_well-sm">
+        <strong>pagarid</strong>
+    </div>
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/Saiasahwer.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Kodune perepagariäri Saiasahwer</h4>
+                    <p class="group inner list-group-item-text">
+                        Koduseimad saiad ja pirukad Tartu koduseimas perepagariäris! Suurim ja 
+                        põnevaim valik soolaseid ja magusaid kringleid (ettetellimisel), üle linna kuulsad tuuletaskud!</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="https://www.saiasahwer.ee/">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="well_well-sm">
+        <strong>Rahvusköögi restorani</strong>
+    </div>
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="assets/images/söömine/Kadrina_Mõis.jpg" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Kadrina mõis</h4>
+                    <p class="group inner list-group-item-text">
+                        Lühikeste Meeste Kõrts mahutab lahedalt ka kuni 50 tavapikkusega 
+                        meest ja naist pidutsema, aga ukseavades tasub peaga ettevaatlik 
+                        olla. Kõrts on sobiv erinevate sündmuste läbiviimiseks,  
+                        ettetellimisel pakutakse ka grupitoitlustust.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.kadrinamois.ee/korts">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Koduleht</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <section class="section1">
      <div class="container">
- 
          <div class="section__header">
              <h3 class="section__suptitle">Küsimus ?</h3>
              <h2 class="section__title">Võtke meiega ühendust!</h2>
@@ -95,3 +424,4 @@
  </section>
  </body>
  </html>
+ 
