@@ -188,13 +188,25 @@ h4{
 }
 
 .info_box{
+    display: flex;
+    flex-direction: row;
     position: relative;
     top:50px;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     color:#7A9EC3;
 }
 
 .info_box h2{
-    text-align: left;
+    position: relative;
+    left: 240px;
 }
+
+.info_box p{
+    position: relative;
+    margin-top: 60px;
+    
+}
+
+
+
